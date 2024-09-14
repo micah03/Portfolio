@@ -1,0 +1,67 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+/* import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Nav from "./assets/Components/Nav";
+import Projects from "./assets/Components/Projects";
+import About from "./assets/Components/About";
+import "./App.css";
+
+const Proj = () => {
+  return (
+    <>
+
+      <Projects
+        link="https://www.example.com/voyagemate"
+        image="Train.jpeg" // Replace with actual image URL
+        title="VoyageMate - MERN Stack Website"
+        description="Developed a full-stack web application with user authentication and personalized travel suggestions. Integrated live tracking and PNR status checks, leveraging MongoDB for data management."
+        technologies="MongoDB, Express.js, React, Node.js"
+      />
+      <Projects
+        link="https://www.example.com/class-attendance"
+        image="Attendance.jpeg" // Replace with actual image URL
+        title="Automatic Class Attendance Tkinter App"
+        description="Created a Tkinter app for automating attendance using face recognition and CSV for data storage. Designed interfaces for both students and teachers to manage and view attendance records."
+        technologies="Python, Tkinter, Face Recognition, CSV"
+      />
+      <Projects
+        link="https://www.example.com/clothing-data"
+        image="shopping.webp" // Replace with actual image URL
+        title="Clothing Website Data Scraping and CNN Model Development"
+        description="Scraped data from a clothing website and developed a CNN model to predict garment prices and ratings. Preprocessed data for model training, enhancing accuracy through normalization and handling missing values."
+        technologies="Python, Selenium, CNN, NumPy, Pandas, TensorFlow"
+      />
+      <Projects
+        link="https://www.example.com/silentvox"
+        image="silent.png" // Replace with actual image URL
+        title="SilentVox - Video Sharing Platform"
+        description="Developed a dynamic web application for secure video uploading, sharing, and viewing. Implemented efficient search functionality to help users navigate vast online content."
+        technologies="MongoDB, Express.js, React, Node.js"
+      />
+      <Projects
+        link="https://www.example.com/cric-analysis"
+        image="cricket.avif" // Replace with actual image URL
+        title="Cric Analysis Using R"
+        description="Analyzed cricket matches between India and Australia, visualized data, and identified key players. Utilized data analysis techniques to determine the best playing 11 based on match data."
+        technologies="R, Data Analysis"
+      />
+    </>
+  );
+};
+
+function App() {
+  return (
+    <Router>
+      <Nav />
+      <Routes>
+        <Route path="/" element={<Proj />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+    </Router>
+  );
+}
+
+export default App; */

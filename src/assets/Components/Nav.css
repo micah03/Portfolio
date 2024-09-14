@@ -1,0 +1,55 @@
+/* Main nav container styling */
+nav {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS08Pegs9LJOIcGD6P9zQ2hj0-Q4vSTiTAEkQ&s.jpg");
+  box-shadow: 2px 1px rgb(110, 68, 5);
+  padding: 10px 0;
+  display: block;
+  width: 100%;
+}
+
+/* Styling for ul */
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+.nav-logo {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: large;
+}
+
+/* Each nav item styling */
+li {
+  display: inline-block;
+  padding: 12px 30px;
+  color: #61dafb;
+  margin-right: 30px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+li:hover {
+  background-color: rgb(52, 45, 37);
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+/* Styling for active link */
+.active-link {
+  background-color: rgb(52, 45, 37);
+  color: white;
+  border-radius: 8px;
+  transform: scale(1.05);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
