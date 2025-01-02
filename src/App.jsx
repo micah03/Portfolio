@@ -90,9 +90,10 @@ function App() {
       <BrowserRouter>
         <Nav />
         <Routes>
-          <Route path="/project" element={<Proj />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/experience" element={<ExperienceEducationPage />} />
+          <Route path="/Portfolio/project" element={<Proj />} />
+          <Route path="/Portfolio/about" element={<About />} />
+          <Route path="/Portfolio/experience" element={<ExperienceEducationPage />} />
+          <Route path="*" element={<About />} />
         </Routes>
       </BrowserRouter>
     </>

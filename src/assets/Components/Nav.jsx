@@ -20,7 +20,7 @@ const Nav = () => {
         <div className="nav-links">
           <li>
             <NavLink
-              to="/about"
+              to="/Portfolio/about"
               className={({ isActive }) =>
                 isActive ? "nav-link active-link" : "nav-link"
               }
@@ -31,7 +31,7 @@ const Nav = () => {
           </li>
           <li>
             <NavLink
-              to="/experience"
+              to="/Portfolio/experience"
               className={({ isActive }) =>
                 isActive ? "nav-link active-link" : "nav-link"
               }
@@ -42,7 +42,7 @@ const Nav = () => {
           </li>
           <li>
             <NavLink
-              to="/project"
+              to="/Portfolio/project"
               className={({ isActive }) =>
                 isActive ? "nav-link active-link" : "nav-link"
               }

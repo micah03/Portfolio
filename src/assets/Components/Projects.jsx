@@ -11,11 +11,11 @@ const Projects = (props) => {
     >
       <div className="container">
         <div className="image-container">
-          <img
+          {/* <img
             src={props.image}
             alt="Project Thumbnail"
             className="card-image"
-          />
+          /> */}
           <div className="overlay">View Project</div>
         </div>
         <div className="card-content">
