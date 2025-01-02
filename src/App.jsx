@@ -21,7 +21,7 @@ const experienceDetails = [
     company: "ServiceNow",
     duration: "June 2024 – Aug 2024",
     description:
-      "Maintained existing automation test frameworks, Collected and reported quality metrics from test execution, Worked with developers in an Agile environment to design specific testing strategies for features being developed and automated them, Supported engineering organizations in troubleshooting and addressing issues with applications and developer/test environments",
+      "• Selected for a 2-month Summer Internship at ServiceNow to work on real-world software projects. Enhanced automation test frameworks for the Digital End-User Experience product, developing and executing 15+ test cases in Agile environment. Conducted cross-platform testing on Windows and MacOS, ensuring compatibility and seamless user experience. Performed internationalization (i18n) testing to validate features for global users, collaborating with developers to troubleshoot and optimize test environments.",
   },
 ];
 
@@ -42,35 +42,41 @@ const Proj = () => {
         link="https://github.com/micah03/InternshipProjectSem_3"
         image="/Train.jpeg" // Replace with actual image URL
         title="Exploratory Data Analysis on an E-Commerce site"
-        description="Employed web scraping to extract real-time data from an e-commerce site. Processed data using Numpy and Pandas to visualise data."
+        description="Processed and cleansed over 100,000 rows of raw data using NumPy and Pandas; generated visualizations with
+        Plotly, Seaborn, and Matplotlib that identified key trends leading to actionable recommendations for team projects."
         technologies="Python, NumPy, Pandas, Plotly, Seaborn, Matplotlib"
       />
       <Projects
         link="https://github.com/micah03/MiniProject_1_CriminalDetection"
         image="Attendance.jpeg" // Replace with actual image URL
         title="Criminal Detection Using Face Recognition in Python"
-        description="Designed a Python GUI app using Tkinter for face detection in videos. Implemented features to determine frame numbers with over 50% accuracy and calculate the identified person's duration in the video."
+        description="Developed a Python GUI application using Tkinter for real-time face detection in video streams. Implemented
+        features to identify frame numbers and calculate the duration of identified faces with over 50% accuracy."
         technologies="Python, Tkinter, Face Recognition, CSV"
       />
       <Projects
         link="https://github.com/micah03/Diabetes_Prediction_streamlit"
         image="shopping.webp" // Replace with actual image URL
         title="Diabetes Prediction using Machine Learning"
-        description="Created a web app to predict diabetes in women using machine learning.Used health attributes and scikit-learn, pandas, NumPy libraries. Achieved 92.5% accuracy with the RandomForestClassifier model. Deployed the app via Streamlit."
+        description="Built a machine learning model to predict diabetes in women based on health data using Scikit-Learn, Pandas, and
+        NumPy. Achieved 92.5% accuracy using the RandomForestClassifier. Deployed the model through a user-friendly
+        web app using Streamlit."
         technologies="Python, Numpy, Pandas, Sci-Kit Learn, Streamlit"
       />
       <Projects
         link="https://github.com/micah03/OutfitPredictionML"
         image="silent.png" // Replace with actual image URL
         title="Outfit Prediction Using Machine Learning"
-        description="Built a web application to determine outfit ratings and pricing through image inputs. Acquired training data from an E-commerce site using Selenium. Utilized a CNN model. Successfully deployed the application on AWS."
+        description="Developed a web application for predicting outfit ratings and pricing based on image inputs. Scraped training data
+        from an e-commerce site using Selenium, trained a CNN model, and successfully deployed the application on AWS."
         technologies="Python, Selenium, CNN, NumPy, Pandas, TensorFlow"
       />
       <Projects
         link="https://github.com/micah03/restaurant-analysis-and-menu-planning"
         image="cricket.avif" // Replace with actual image URL
         title="Restaurant Analysis and Menu Planning"
-        description="Analyzed restaurants data to optimize menu planning and operations. Utilized R for statistical analysis and data visualization, including predictive modeling and interactive plots."
+        description="Analyzed restaurant data with R using caTools and FNN, building five KNN models that delivered insights on 15+
+        attributes including cuisine types, resulting in actionable recommendations for optimizing menu oﬀerings. Conducted sentiment analysis to refine menu oﬀerings and built predictive models for performance forecasting, guiding resource allocation and marketing strategies. Presented insights via visualization using ggplot2 and plotly."
         technologies="R, Data Analysis"
       />
     </>

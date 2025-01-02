@@ -52,7 +52,7 @@ const Nav = () => {
             </NavLink>
           </li>
           <li>
-            <a href="/Resume.pdf" download="Gopi_Prasanth_Raju_Resume.pdf">
+            <a href="https://drive.google.com/file/d/1xmVKz9Dhut_KRwnw-oeF1fbDxTjmVrv5/view?usp=sharing" download="mayukha-mohan-t-resume.pdf">
               Resume
             </a>
           </li>
