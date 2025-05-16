@@ -10,7 +10,7 @@ const About = () => {
         <p className="about-text">
           Hi, I'm <strong>Mayukha Mohan Thatikonda</strong>, currently pursuing a Bachelor's degree in Artificial Intelligence and Data Science
           <strong> Chaitanya Bharathi Institute of Technology</strong> in
-          Hyderabad, Telangana, with a GPA of 9.07/10. 
+          Hyderabad, Telangana, with a GPA of 9.17/10. 
         </p>
       </div>
 
@@ -20,13 +20,13 @@ const About = () => {
         <p className="about-text">
           <strong>Languages:</strong> Java, Python, JavaScript, R, C/C++, HTML, CSS
           <br />
-          <strong>Frameworks/Libraries:</strong> React.js, Express.js, Flask,
+          <strong>Frameworks/Libraries:</strong> Paramiko, React.js, Express.js, Flask,
           Django, TensorFlow, PyTorch, jQuery, Bootstrap, Node.js, NumPy,
           Pandas, Matplotlib, Selenium, JUnit, REST API, Git
           <br />
           <strong>Databases/Tools:</strong> MySQL, MongoDB, Git, SQL
           <br />
-          <strong>Concepts:</strong> Operating Systems, Computer Networks, Data
+          <strong>Concepts:</strong> DevOps, CI/CD, Operating Systems, Computer Networks, Data
           Structures and Algorithms, AI, Machine Learning, Deep Learning, Data
           Analysis and Visualization, Software Engineering, OOPs
         </p>
