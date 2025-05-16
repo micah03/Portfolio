@@ -39,29 +39,12 @@ const Proj = () => {
   return (
     <>
       <Projects
-        link="https://github.com/micah03/InternshipProjectSem_3"
-        image="/Train.jpeg" // Replace with actual image URL
-        title="Exploratory Data Analysis on an E-Commerce site"
-        description="Processed and cleansed over 100,000 rows of raw data using NumPy and Pandas; generated visualizations with
-        Plotly, Seaborn, and Matplotlib that identified key trends leading to actionable recommendations for team projects."
-        technologies="Python, NumPy, Pandas, Plotly, Seaborn, Matplotlib"
-      />
-      <Projects
         link="https://github.com/micah03/MiniProject_1_CriminalDetection"
         image="Attendance.jpeg" // Replace with actual image URL
         title="Criminal Detection Using Face Recognition in Python"
         description="Developed a Python GUI application using Tkinter for real-time face detection in video streams. Implemented
         features to identify frame numbers and calculate the duration of identified faces with over 50% accuracy."
         technologies="Python, Tkinter, Face Recognition, CSV"
-      />
-      <Projects
-        link="https://github.com/micah03/Diabetes_Prediction_streamlit"
-        image="shopping.webp" // Replace with actual image URL
-        title="Diabetes Prediction using Machine Learning"
-        description="Built a machine learning model to predict diabetes in women based on health data using Scikit-Learn, Pandas, and
-        NumPy. Achieved 92.5% accuracy using the RandomForestClassifier. Deployed the model through a user-friendly
-        web app using Streamlit."
-        technologies="Python, Numpy, Pandas, Sci-Kit Learn, Streamlit"
       />
       <Projects
         link="https://github.com/micah03/OutfitPredictionML"
