@@ -17,11 +17,11 @@ const educationDetails = [
 
 const experienceDetails = [
   {
-    role: "Associate Software QA Engineer Intern",
+    role: "Intern",
     company: "ServiceNow",
     duration: "June 2024 – Aug 2024",
     description:
-      "• Selected for a 2-month Summer Internship at ServiceNow to work on real-world software projects. Enhanced automation test frameworks for the Digital End-User Experience product, developing and executing 15+ test cases in Agile environment. Conducted cross-platform testing on Windows and MacOS, ensuring compatibility and seamless user experience. Performed internationalization (i18n) testing to validate features for global users, collaborating with developers to troubleshoot and optimize test environments.",
+      "• Automated Network Diagnostics and Logging: Designed and implemented a Python-based automation tool using Paramiko to remotely access Cisco and Palo Alto network devices, execute diagnostic commands, and collect system outputs and logs. Collaborated with the network operations team to streamline troubleshooting and reduce manual diagnostic effort by 80%. • Cross-Functional UI Integration for Secure Log Access: Packaged diagnostic data into secure, downloadable ZIP archives and integrated access into a Django-based web interface. Partnered with the DevOps and UI/UX teams to enhance accessibility, improving incident response time by 60%. • Dynamic Subnet Allocation Engine: Developed a Python engine to parse Excel-based files and dynamically allocate subnet ranges based on project-specific constraints. Worked with infrastructure teams to ensure real-time updates post-deployment. • Terraform Automation and CI/CD Integration: Integrated subnet planner directly into the Terraform pipeline, enabling dynamic injection of subnet variables during runtime. Improved infrastructure-as-code scalability and eliminated manual configuration errors across staging and production environments.",
   },
 ];
 
